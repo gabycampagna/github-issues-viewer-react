@@ -116,7 +116,23 @@
 /* Tablets and mobile */
 @media screen and (max-width:900px) {
   .issuesList {
-    margin: 5% 0;
+    margin: 15% 5% 2% 5%;
   }
 
+  .issuesList .summary {
+    position: absolute;
+    left: 25%;
+    margin-top: -83px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .issuesList {
+    margin: 15% 3% 5% 3%;
+  }
+  .issuesList .summary {
+    left: 30%;
+    margin-top: -83px;
+    width: 60%;
+  }
 }

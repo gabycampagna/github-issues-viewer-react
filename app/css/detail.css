@@ -1,25 +1,12 @@
-.comment-content {
-	border: 1px solid;
-	margin: 8px 0px 15px;
-	padding: 8px 8px 0px;
-	-moz-box-shadow: 1px 1px 3px #CCCCCC;
-  -webkit-box-shadow: 1px 1px 3px #CCCCCC;
-  box-shadow: 1px 1px 3px #CCCCCC;
-  border: 1px solid #CCCCCC;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
 .issuesDetails {
 	list-style-type: none;
 	margin: 5% 8%;
 }
 
 .issuesDetails h3 {
-    font-size: 2em;
-    font-style: bold;
-    margin: 5px;
+  font-size: 3rem;
+  font-style: bold;
+  margin: 5px;
 }
 
 .issuesDetails .state {
@@ -77,9 +64,22 @@
   margin-bottom: 10px;
 }
 
+.comment-content {
+	border: 1px solid;
+	margin: 8px 0px 15px;
+	padding: 8px 8px 0px;
+	-moz-box-shadow: 1px 1px 3px #CCCCCC;
+  -webkit-box-shadow: 1px 1px 3px #CCCCCC;
+  box-shadow: 1px 1px 3px #CCCCCC;
+  border: 1px solid #CCCCCC;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
 /* Tablets and mobile */
-@media screen and (max-width:768px) {
-    .issuesDetails {
-        margin: 2% 5% 2% 5%;
-    }
+@media screen and (max-width:900px) {
+  .issuesDetails {
+    margin: 15% 5% 2% 5%;
+  }
 }

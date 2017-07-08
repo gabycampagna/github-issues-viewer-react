@@ -1,5 +1,5 @@
 .pagination {
-  margin: 2% 3%;
+  margin: 2% 3% 8% 3%;
 }
 
 .pagination a {
@@ -13,7 +13,7 @@
   color: #2196f3;
 }
 
-.pagination a:hover, {
+.pagination a:hover {
   color: #ccc;
 }
 
@@ -25,4 +25,10 @@
   border-radius: 10px;
   border: 1px solid #ccc;
   color: #2196f3;
+}
+
+@media screen and (max-width: 460px) {
+  .pagination {
+    margin: 6% 3% 20% 4%;
+  }
 }
