@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+.issuesList {
+  margin: 5%;
+}
+
+.issuesList li {
+  list-style-type: none;
+  border-radius: 6px;
+  background-color: rgb(245, 245, 245);
+  -moz-box-shadow: 1px 1px 3px #CCCCCC;
+  -webkit-box-shadow: 1px 1px 3px #CCCCCC;
+  box-shadow: 1px 1px 3px #CCCCCC;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-name {
+  bottom: 0px;
+  color: #2196f3;
+  margin-left: 86px;
+  margin-right: 5px;
+  width: 88%;
+  top: -68px;
+}
+
+.label {
+  margin-left: 8px;
+}
+
+.issuesList .title a {
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 8px;
+  padding: 2px 0 5px 0;
+  color: rgb(50, 50, 50);
+}
+
+.issuesList .title a:hover {
+  color: #2196f3;
+}
+
+.issuesList .user-name .commentIcon {
+  float: right;
+  font-size: 1.6rem;
+}
+
+.issuesList .user-name .commentIcon span {
+    padding: 2px;
+    font-size: 11px;
+    vertical-align: 2px;
+}
+
+.commentNo {
+  position: absolute;
+  font-size: 1.1rem;
+  margin-left: 3px;
+}
+
+.user-name .title {
+    display: block;
+    font-weight: bold;
+}
+.user-name .name {
+    font-weight: 500;
+    color: #2196f3;
+}
+.user-name .title .id {
+    padding-left: 10px;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 0.75em;
+}
+
+.issuesList img {
+  height: 70px;
+  width: 70px;
+  padding: 2px;
+  border-radius: 10px;
+  -moz-box-shadow: 1px 1px 3px #CCCCCC;
+  -webkit-box-shadow: 1px 1px 3px #CCCCCC;
+  box-shadow: 1px 1px 3px #CCCCCC;
+  border: 1px solid #CCCCCC;
+  margin: 4px 8px 0px 0px;
+}
+
+.issuesList .summary {
+  font-weight: normal;
+  position: absolute;
+  left: 18%;
+  margin-top: -66px;
+  width: 70%;
+}
+
+.comment {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.comment-detail {
+  border-radius: 6px;
+  background-color: rgb(245, 245, 245);
+  -moz-box-shadow: 1px 1px 3px #CCCCCC;
+  -webkit-box-shadow: 1px 1px 3px #CCCCCC;
+  box-shadow: 1px 1px 3px #CCCCCC;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Tablets and mobile */
+@media screen and (max-width:900px) {
+  .issuesList {
+    margin: 5% 0;
+  }
+
+}

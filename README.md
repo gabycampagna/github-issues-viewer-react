@@ -1,6 +1,6 @@
 # github-issues-viewer-react
 
- Github NPM Issue Viewer
+ Github Node Issue Viewer
 
 ## Dependencies
 

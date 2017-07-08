@@ -1,4 +1,10 @@
-body> .header {
+body > .container {
+	top: 50px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+
+body > .header {
 	background-color: rgb(220,220,220);
 }
 
@@ -7,51 +13,45 @@ a {
 }
 
 .title-container {
-	width: 790px;
+	width: 60%;
 	margin: 0px auto;
 	padding-top:5px;
 }
+
 .header-logo {
 	position: relative;
 	top: 8px;
 	width: 100px;
 }
-.avatar{
-	padding: 2px;
-    -moz-box-shadow: 1px 1px 3px #CCCCCC;
-    -webkit-box-shadow: 1px 1px 3px #CCCCCC;
-    box-shadow: 1px 1px 3px #CCCCCC;
-    border: 1px solid #CCCCCC;
-    width:54px;
-}
-body>.container{
-	top: 50px;
-	position: relative;
-}
+
 .header-container {
 	background: #1E2E75;
 	color: #fff;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 90px;
   top: 0;
   z-index: 1;
   border-bottom: 1px solid rgb(200,200,200);
 }
+
 .header-container h3 {
   float: right;
-  margin: 10px 10px 0px 0px;
+  margin: 26px 10px 0px 0px;
 }
+
 .issue-title {
 	font-size: 15px;
-    font-weight: bold;
-    margin-right: 8px;
-    padding-top: 2px;
-    color: rgb(50, 50, 50);
+  font-weight: bold;
+  margin-right: 8px;
+  padding-top: 2px;
+  color: rgb(50, 50, 50);
 }
+
 a, a:hover{
 	text-decoration: none!important;
 }
+
 .footer-container {
 	background: #1E2E75;
   position: fixed;
@@ -61,14 +61,17 @@ a, a:hover{
   z-index: 1;
   border-top: 1px solid rgb(200,200,200);
 }
+
 .issue-label {
 	top: -3px;
     position: relative;
 }
+
 .label-link, .label-link:hover {
 	text-decoration: none;
 	margin: 0px 2px;
 }
+
 .user-name, .create-time {
 	margin-left: 8px;
 	bottom: -10px;
