@@ -22,8 +22,8 @@ Goto http://localhost:3000 to access the application
 
 ## Feature
 * Home/Index page:
-    * This home page should show 25 issues per page.
-    *  Issue number
+    * 25 issues per page
+    * Issue number
     * Issue title
     * User's name
     * User's Gravatar
@@ -36,3 +36,4 @@ Goto http://localhost:3000 to access the application
     * Reporter's name
     * Reporter's gravatar
     * Complete summary
+    * Comments
