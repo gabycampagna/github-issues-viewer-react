@@ -1,0 +1,45 @@
+{
+  "name": "github-issues-viewer-react",
+  "version": "1.0.0",
+  "description": "Github issue viewer",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "gulp run-prod",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gabycampagna/github-issues-viewer-react.git"
+  },
+  "author": "Gaby Campagna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gabycampagna/github-issues-viewer-react/issues"
+  },
+  "homepage": "https://github.com/gabycampagna/github-issues-viewer-react",
+  "dependencies": {
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "gulp": "^3.9.0",
+    "gulp-webserver": "^0.9.1",
+    "history": "^1.17.0",
+    "http-server": "^0.8.5",
+    "jquery": "^2.1.4",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-router": "^1.0.3"
+  },
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "jest-cli": "^0.8.2",
+    "jshint": "^2.8.0",
+    "reactify": "^1.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
+    "watchify": "^3.7.0"
+  }
+}
