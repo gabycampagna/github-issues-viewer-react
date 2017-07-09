@@ -6,7 +6,7 @@
 
 `nodejs` --version 4.0 +
 
-`gulp` (Globally for development)
+`gulp` - Globally for development
 
 ## Initialize Application
 
@@ -20,7 +20,7 @@ Goto http://localhost:3000 to access the application
 
 `npm test`
 
-## Feature
+## Features
 * Home/Index page:
     * 25 issues per page
     * Issue number
