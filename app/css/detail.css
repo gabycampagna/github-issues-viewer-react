@@ -12,10 +12,10 @@
 .issuesDetails .state {
   font-size: 2rem;
 	margin-right: 10px;
-  padding: 3px 3px 5px 3px;
+  padding: 3px 8px 5px 8px;
 	border: 1px solid #ccc;
 	border-radius: 6px;
-	background-color: rgba(0, 111, 29, 0.73);
+	background-color: #337ab7;
 	color: #fff;
 }
 
@@ -32,8 +32,8 @@
 }
 
 .issuesDetails .label {
-    padding: 5px;
-    margin: 0 4px;
+  padding: 5px;
+  margin: 0 4px;
 }
 
 .issuesDetails .name {
@@ -43,15 +43,15 @@
 }
 
 .issuesDetails .header label {
-    padding-right: 5px;
+  padding-right: 5px;
 }
 
 .issuesDetails .header span {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 .issuesDetails .header {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 .issuesDetails .body {
 	border-radius: 6px;
