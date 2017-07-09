@@ -1,5 +1,6 @@
 var React = require('react');
 var Link = require('react-router').Link;
+var getTextColorForLabel = require('./../utils/colorMap.js').getTextColorForLabel;
 
 var IssueItem = React.createClass({
    render: function() {
@@ -20,7 +21,8 @@ var IssueItem = React.createClass({
                <label className="user-name">{this.props.issues.user.login}
                   {this.props.issues.labels.map(function(labelObj) {
                      var labelStyle = {
-                        "backgroundColor": "#" + labelObj.color
+                        "backgroundColor": "#" + labelObj.color,
+                        "color": "#" + getTextColorForLabel(labelObj),
                      };
                      return <span key={labelObj.name} className="label" style={labelStyle}>{labelObj.name}</span>
                   })}

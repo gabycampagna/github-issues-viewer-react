@@ -1,6 +1,8 @@
 var React = require('react');
 var IssuesDetailsStore = require('./../store/IssuesDetailsStore.js')();
 var Comments = require('./Comments.react');
+var getTextColorForLabel = require('./../utils/colorMap.js').getTextColorForLabel;
+
 var IssuesDetails = React.createClass({
    getInitialState: function() {
       return {issuesDetails: undefined};
@@ -28,7 +30,11 @@ var IssuesDetails = React.createClass({
                    <h3>{issuesDetails.title}</h3>
                    <label className="state">{issuesDetails.state}</label>
                        {issuesDetails.labels.map(function(labelObj){
-                           var labelStyle = {"backgroundColor": "#" + labelObj.color};
+                           var labelStyle = {
+                             "backgroundColor": "#" + labelObj.color,
+                             "color": "#" + getTextColorForLabel(labelObj),
+
+                           };
                          return <span key={labelObj.name} className="label" style={labelStyle}>{labelObj.name}</span>
                        })}
                 <div className="header">
