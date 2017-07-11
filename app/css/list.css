@@ -38,7 +38,7 @@
 }
 
 .user-name {
-  bottom: 0px;
+  bottom: 0;
   color: #2196f3;
   margin-left: 86px;
   margin-right: 5px;
@@ -105,7 +105,7 @@
   -webkit-box-shadow: 1px 1px 3px #CCCCCC;
   box-shadow: 1px 1px 3px #CCCCCC;
   border: 1px solid #CCCCCC;
-  margin: 4px 8px 0px 0px;
+  margin: 4px 8px 0 0;
 }
 
 .issuesList .summary {

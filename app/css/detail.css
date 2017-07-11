@@ -5,7 +5,7 @@
 
 .issuesDetails h3 {
   font-size: 3rem;
-  font-style: bold;
+  font-weight: bold;
   margin: 5px;
 }
 
@@ -28,7 +28,7 @@
   -webkit-box-shadow: 1px 1px 3px #CCCCCC;
   box-shadow: 1px 1px 3px #CCCCCC;
   border: 1px solid #CCCCCC;
-  margin: 4px 8px 0px 0px;
+  margin: 4px 8px 0 0;
 }
 
 .issuesDetails .label {
@@ -67,8 +67,8 @@
 
 .comment-content {
 	border: 1px solid;
-	margin: 8px 0px 15px;
-	padding: 8px 8px 0px;
+	margin: 8px 0 15px;
+	padding: 8px 8px 0;
 	-moz-box-shadow: 1px 1px 3px #CCCCCC;
   -webkit-box-shadow: 1px 1px 3px #CCCCCC;
   box-shadow: 1px 1px 3px #CCCCCC;

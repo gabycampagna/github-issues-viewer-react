@@ -8,7 +8,7 @@ a { color: #337ab7; }
 
 a,
 a:hover{
-	text-decoration: none!important;
+	text-decoration: none;
 }
 
 .header-container {
@@ -24,7 +24,7 @@ a:hover{
 
 .title-container {
 	width: 60%;
-	margin: 0px auto;
+	margin: 0 auto;
 	padding-top:5px;
 }
 
@@ -36,7 +36,7 @@ a:hover{
 
 .header-container h3 {
   float: right;
-  margin: 26px 10px 0px 0px;
+  margin: 26px 10px 0 0;
 }
 
 .footer-container {
