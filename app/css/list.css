@@ -6,6 +6,13 @@
   margin: 5%;
 }
 
+.issue-list {
+	padding: 8px 8px;
+	border-left: 1px solid rgb(230, 230, 230);
+	border-right: 1px solid rgb(230, 230, 230);
+	list-style-type: none;
+}
+
 .issuesList li {
   list-style-type: none;
   border-radius: 6px;
@@ -16,6 +23,18 @@
   margin: 0;
   padding: 10px;
   margin-bottom: 10px;
+}
+
+.issue-title {
+	font-size: 15px;
+  font-weight: bold;
+  margin-right: 8px;
+  padding-top: 2px;
+  color: rgb(50, 50, 50);
+}
+
+.issue-title:hover {
+	color: blue;
 }
 
 .user-name {

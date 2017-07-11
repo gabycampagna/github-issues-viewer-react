@@ -39,14 +39,6 @@ a:hover{
   margin: 26px 10px 0px 0px;
 }
 
-.issue-title {
-	font-size: 15px;
-  font-weight: bold;
-  margin-right: 8px;
-  padding-top: 2px;
-  color: rgb(50, 50, 50);
-}
-
 .footer-container {
 	background-color: #061144;
   position: fixed;
